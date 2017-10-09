@@ -3,38 +3,6 @@ import re
 import math
 from tabulate import tabulate
 
-# mergeSort code taken from interactivepython.org
-def mergeSort(alist):
-    if len(alist)>1:
-        mid = len(alist)//2
-        lefthalf = alist[:mid]
-        righthalf = alist[mid:]
-
-        mergeSort(lefthalf)
-        mergeSort(righthalf)
-
-        i=0
-        j=0
-        k=0
-        while i < len(lefthalf) and j < len(righthalf):
-            if lefthalf[i][1] > righthalf[j][1]:
-                alist[k]=lefthalf[i]
-                i=i+1
-            else:
-                alist[k]=righthalf[j]
-                j=j+1
-            k=k+1
-
-        while i < len(lefthalf):
-            alist[k]=lefthalf[i]
-            i=i+1
-            k=k+1
-
-        while j < len(righthalf):
-            alist[k]=righthalf[j]
-            j=j+1
-            k=k+1
-
 # creates a tokenizer to tokenize by sentence
 tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
 
@@ -69,7 +37,7 @@ for item in tokens:
         for row in tabl:
             if row[0] == item:
                 row[1] += 1
-mergeSort(tabl)
+tabl.sort()
 print(tabulate(tabl, headers=['Word', 'Occurences']))
 
 # split the corpus into 90/10, 80/20, and 70/30 train/test splits
