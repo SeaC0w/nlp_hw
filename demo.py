@@ -22,7 +22,6 @@ def checkHarmony(word):
         check = 0
     else:
         check = max(harm)
-    scrub(word)
     if check == 0:
         print(word + " has perfect vowel harmony")
     elif check == 1:
@@ -46,8 +45,11 @@ def checkHarmonyAffix(word):
         check = 0
     else:
         check = max(harm)
-    scrub(word)
+    
     if check == 0:
+        if word == '':
+            print("No suffix, therefore perfect vowel harmony")
+            return
         print("The suffix " + word + " has perfect vowel harmony")
     elif check == 1:
         print("The suffix " + word + " has partial vowel harmony")
@@ -73,13 +75,13 @@ def main():
     word = sys.argv[1]
     # print(word)
     stem = stemmer.stemWord(word)
-    print(scrub(stem))
-    # print(scrub(word.split(stem)))
-    # suffix = (word.split(stem))[1]
+#    print(stem)
+#    print(word.split(stem))
+    suffix = (word.split(stem))[1]
     # suffix = scrub(suffix)
-    # print(stem + ' --- ' + suffix)
-    # checkHarmony(word)
-    # checkHarmonyAffix(suffix)
+    print(stem + ' --- ' + suffix)
+    checkHarmony(stem)
+    checkHarmonyAffix(suffix)
 
 if __name__ == '__main__':
     main()
