@@ -12,13 +12,14 @@ def checkHarmony(word):
     for i in range(len(vowels) - 1):
         ro = HasRoundness(vowels[i], vowels[i+1])
         fr = HasFrontness(vowels[i], vowels[i+1])
-        if ro and fr:
+        if (ro and fr):
             harm.append(0)
         elif ((ro and not fr) or (fr and not ro)):
             harm.append(1)
         else:
             harm.append(2)
     if (len(harm) == 0):
+        # print('hey')
         check = 0
     else:
         check = max(harm)
@@ -45,7 +46,7 @@ def checkHarmonyAffix(word):
         check = 0
     else:
         check = max(harm)
-    
+
     if check == 0:
         if word == '':
             print("No suffix, therefore perfect vowel harmony")
@@ -80,6 +81,7 @@ def main():
     suffix = (word.split(stem))[1]
     # suffix = scrub(suffix)
     print(stem + ' --- ' + suffix)
+    checkHarmony(word)
     checkHarmony(stem)
     checkHarmonyAffix(suffix)
 
