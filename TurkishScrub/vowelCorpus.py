@@ -72,72 +72,38 @@ def getHarmony(word):
     return check
 
 def main():
-    if len(sys.argv) != 3:
-        print("Error! Expected three command line arguments: scriptName fileToRead option")
+    if len(sys.argv) != 2:
+        print("Error! Expected two command line arguments: scriptName fileToRead")
         return
     f = open(sys.argv[1], 'r')
-    option = int(sys.argv[2])
     turkishCorpus = f.read()
     wordList = turkishCorpus.split()
     stemmedWords = stemmer.stemWords(wordList)
-    # print(wordList[0])
-    # print(stemmedWords[0])
     count = 0
     ct = 0
-    # options: 0 for normal run, 1 for consecutive bigrams, 2 for suffixing with bad harmony
     # in both arrays index 0 is perfect harmony, 1 is partial harmony, and 2
     # is breaking harmony
     wordHarm = [0, 0, 0]
+    stemHarm = [0, 0, 0]
+    for word in wordList:
+        wordHarm[getHarmony(word)] += 1
+    for stem in stemmedWords:
+        stemHarm[getHarmony(stem)] += 1
+    total1 = sum(wordHarm)
     comp1 = []
-    if option == 0:
-        stemHarm = [0, 0, 0]
-        for word in wordList:
-            wordHarm[getHarmony(word)] += 1
-        for stem in stemmedWords:
-            stemHarm[getHarmony(stem)] += 1
-        total1 = sum(wordHarm)
-        total2 = sum(stemHarm)
-        comp2 = []
-        for val in wordHarm:
-            comp1.append(str(100 * (val / total1)) + '%')
-        for num in stemHarm:
-            comp2.append(str(100 * (num / total2)) + '%')
-        print('Filename: ' + sys.argv[1])
-        print('Percent stems with perfect harmony: ' + comp2[0])
-        print('Percent stems with partial harmony: ' + comp2[1])
-        print('Percent stems failed harmony: ' + comp2[2])
-        print('-------------------------------')
-        print('Percent words with perfect harmony: ' + comp1[0])
-        print('Percent words with partial harmony: ' + comp1[1])
-        print('Percent words failed harmony: ' + comp1[2])
-    if option == 1:
-        for i in range (len(wordList) - 1):
-            curr = wordList[i] + wordList[i + 1]
-            wordHarm[getHarmony(curr)] += 1
-        total = sum(wordHarm)
-        for val in wordHarm:
-            comp1.append(str(100 * (val / total)) + '%')
-        print('Filename: ' + sys.argv[1])
-        print('Percent bigrams with perfect harmony: ' + comp1[0])
-        print('Percent bigrams with partial harmony: ' + comp1[1])
-        print('Percent bigrams failed harmony: ' + comp1[2])
-    if option == 2:
-        added = []
-        for i in range(len(wordList) - 1):
-            s = stemmedWords[i]
-            w = wordList[i]
-            if getHarmony(s) == 2 and w not in added:
-                # splitting breaks sometimes, this makes sure it doesnt
-                try:
-                    added.append(w)
-                    w = (w.split(s))[1]
-                    comp1.append((s, w))
-                except IndexError:
-                    continue
-        print("Suffixing of words with failed harmony:")
-        for pair in comp1:
-            if pair[1] != '':
-                print(pair[0] + '-' + pair[1])
+    total2 = sum(stemHarm)
+    comp2 = []
+    for val in wordHarm:
+        comp1.append(str(100 * (val / total1)) + '%')
+    for num in stemHarm:
+        comp2.append(str(100 * (num / total2)) + '%')
+    print('Percent stems with perfect harmony: ' + comp2[0])
+    print('Percent stems with partial harmony: ' + comp2[1])
+    print('Percent stems failed harmony: ' + comp2[2])
+    print('-------------------------------')
+    print('Percent words with perfect harmony: ' + comp1[0])
+    print('Percent words with partial harmony: ' + comp1[1])
+    print('Percent words failed harmony: ' + comp1[2])
     f.close()
 
 
