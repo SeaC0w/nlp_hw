@@ -1,8 +1,8 @@
 Filename: turk_from_armenian.txt
-Percent stems with perfect harmony: 68.75%
-Percent stems with partial harmony: 25.0%
-Percent stems failed harmony: 6.25%
+Percent stems with perfect harmony: 76.92307692307693%
+Percent stems with partial harmony: 23.076923076923077%
+Percent stems failed harmony: 0.0%
 -------------------------------
-Percent words with perfect harmony: 68.75%
-Percent words with partial harmony: 25.0%
-Percent words failed harmony: 6.25%
+Percent words with perfect harmony: 76.92307692307693%
+Percent words with partial harmony: 23.076923076923077%
+Percent words failed harmony: 0.0%

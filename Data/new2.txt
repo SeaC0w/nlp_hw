@@ -1,8 +1,8 @@
 Filename: armenian.txt
-Percent stems with perfect harmony: 56.25%
-Percent stems with partial harmony: 37.5%
-Percent stems failed harmony: 6.25%
+Percent stems with perfect harmony: 57.14285714285714%
+Percent stems with partial harmony: 35.714285714285715%
+Percent stems failed harmony: 7.142857142857142%
 -------------------------------
-Percent words with perfect harmony: 56.25%
-Percent words with partial harmony: 37.5%
-Percent words failed harmony: 6.25%
+Percent words with perfect harmony: 57.14285714285714%
+Percent words with partial harmony: 35.714285714285715%
+Percent words failed harmony: 7.142857142857142%

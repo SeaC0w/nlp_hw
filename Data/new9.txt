@@ -1,8 +1,8 @@
 Filename: turk_from_assyrian.txt
-Percent stems with perfect harmony: 40.0%
-Percent stems with partial harmony: 40.0%
-Percent stems failed harmony: 20.0%
+Percent stems with perfect harmony: 50.0%
+Percent stems with partial harmony: 50.0%
+Percent stems failed harmony: 0.0%
 -------------------------------
-Percent words with perfect harmony: 20.0%
-Percent words with partial harmony: 60.0%
-Percent words failed harmony: 20.0%
+Percent words with perfect harmony: 0.0%
+Percent words with partial harmony: 100.0%
+Percent words failed harmony: 0.0%

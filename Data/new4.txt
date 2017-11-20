@@ -1,8 +1,8 @@
 Filename: french.txt
-Percent stems with perfect harmony: 18.89763779527559%
-Percent stems with partial harmony: 42.51968503937008%
-Percent stems failed harmony: 38.582677165354326%
+Percent stems with perfect harmony: 17.599999999999998%
+Percent stems with partial harmony: 43.2%
+Percent stems failed harmony: 39.2%
 -------------------------------
-Percent words with perfect harmony: 18.11023622047244%
-Percent words with partial harmony: 42.51968503937008%
-Percent words failed harmony: 39.37007874015748%
+Percent words with perfect harmony: 16.8%
+Percent words with partial harmony: 43.2%
+Percent words failed harmony: 40.0%

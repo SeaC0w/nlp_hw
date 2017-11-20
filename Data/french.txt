@@ -1,5 +1,3 @@
-#French Words
-
 agenda
 accélération
 accessoire

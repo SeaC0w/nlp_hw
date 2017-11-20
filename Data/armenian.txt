@@ -1,5 +1,3 @@
-#Armenian cities
-
 metskert
 sevaverag
 manavazkert

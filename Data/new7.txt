@@ -1,8 +1,8 @@
 Filename: turk_from_arabic.txt
-Percent stems with perfect harmony: 46.137339055793994%
-Percent stems with partial harmony: 50.0%
-Percent stems failed harmony: 3.862660944206009%
+Percent stems with perfect harmony: 46.220302375809936%
+Percent stems with partial harmony: 50.10799136069114%
+Percent stems failed harmony: 3.6717062634989204%
 -------------------------------
-Percent words with perfect harmony: 42.91845493562232%
-Percent words with partial harmony: 53.00429184549357%
-Percent words failed harmony: 4.07725321888412%
+Percent words with perfect harmony: 42.98056155507559%
+Percent words with partial harmony: 53.131749460043196%
+Percent words failed harmony: 3.8876889848812093%
