@@ -1,0 +1,4 @@
+Filename: carForScrub.txt
+Percent bigrams with perfect harmony: 23.845919261998247%
+Percent bigrams with partial harmony: 54.46045481306412%
+Percent bigrams failed harmony: 21.69362592493763%

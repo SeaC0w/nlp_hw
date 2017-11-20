@@ -1,0 +1,8 @@
+Filename: futbolForScrub.txt
+Percent stems with perfect harmony: 76.03518854398271%
+Percent stems with partial harmony: 19.90249976994161%
+Percent stems failed harmony: 4.062311686075678%
+-------------------------------
+Percent words with perfect harmony: 74.85829887404971%
+Percent words with partial harmony: 20.9833734574956%
+Percent words failed harmony: 4.15832766845469%

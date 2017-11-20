@@ -1,0 +1,8 @@
+Filename: geneticsForScrub.txt
+Percent stems with perfect harmony: 79.78638647640233%
+Percent stems with partial harmony: 15.347555829014523%
+Percent stems failed harmony: 4.866057694583146%
+-------------------------------
+Percent words with perfect harmony: 78.64673308564262%
+Percent words with partial harmony: 16.407932413564616%
+Percent words failed harmony: 4.945334500792768%

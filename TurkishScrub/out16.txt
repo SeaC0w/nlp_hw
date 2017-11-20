@@ -1,0 +1,4 @@
+Filename: geneticsInfScrub.txt
+Percent bigrams with perfect harmony: 23.389539246769058%
+Percent bigrams with partial harmony: 53.17337707258287%
+Percent bigrams failed harmony: 23.437083680648072%

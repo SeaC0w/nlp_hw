@@ -1,0 +1,8 @@
+Filename: carInfScrub.txt
+Percent stems with perfect harmony: 79.95425222996701%
+Percent stems with partial harmony: 15.786453576984671%
+Percent stems failed harmony: 4.259294193048328%
+-------------------------------
+Percent words with perfect harmony: 78.82437071163987%
+Percent words with partial harmony: 16.849402540122043%
+Percent words failed harmony: 4.326226748238087%

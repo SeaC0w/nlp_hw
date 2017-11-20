@@ -1,0 +1,8 @@
+Filename: fishInfScrub.txt
+Percent stems with perfect harmony: 81.64335461859237%
+Percent stems with partial harmony: 14.67381640629524%
+Percent stems failed harmony: 3.6828289751123933%
+-------------------------------
+Percent words with perfect harmony: 80.45024011488998%
+Percent words with partial harmony: 15.787698787128562%
+Percent words failed harmony: 3.762061097981454%

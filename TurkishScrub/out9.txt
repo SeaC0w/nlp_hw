@@ -1,0 +1,8 @@
+Filename: techForScrub.txt
+Percent stems with perfect harmony: 76.48368226555493%
+Percent stems with partial harmony: 16.677453053360107%
+Percent stems failed harmony: 6.838864681084962%
+-------------------------------
+Percent words with perfect harmony: 75.42343955707845%
+Percent words with partial harmony: 17.65258673806368%
+Percent words failed harmony: 6.923973704857864%
