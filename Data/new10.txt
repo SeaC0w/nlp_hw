@@ -1,0 +1,8 @@
+Filename: turk_from_french.txt
+Percent stems with perfect harmony: 25.984251968503933%
+Percent stems with partial harmony: 44.09448818897638%
+Percent stems failed harmony: 29.92125984251969%
+-------------------------------
+Percent words with perfect harmony: 25.196850393700785%
+Percent words with partial harmony: 44.09448818897638%
+Percent words failed harmony: 30.708661417322837%

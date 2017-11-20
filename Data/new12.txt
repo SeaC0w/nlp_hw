@@ -1,0 +1,8 @@
+Filename: turkish_from_kurdish.txt
+Percent stems with perfect harmony: 25.0%
+Percent stems with partial harmony: 25.0%
+Percent stems failed harmony: 50.0%
+-------------------------------
+Percent words with perfect harmony: 25.0%
+Percent words with partial harmony: 25.0%
+Percent words failed harmony: 50.0%

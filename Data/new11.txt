@@ -1,0 +1,8 @@
+Filename: turk_from_greek.txt
+Percent stems with perfect harmony: 63.63636363636363%
+Percent stems with partial harmony: 25.0%
+Percent stems failed harmony: 11.363636363636363%
+-------------------------------
+Percent words with perfect harmony: 61.36363636363637%
+Percent words with partial harmony: 25.0%
+Percent words failed harmony: 13.636363636363635%

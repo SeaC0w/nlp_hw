@@ -1,0 +1,8 @@
+Filename: greek.txt
+Percent stems with perfect harmony: 25.0%
+Percent stems with partial harmony: 50.0%
+Percent stems failed harmony: 25.0%
+-------------------------------
+Percent words with perfect harmony: 25.0%
+Percent words with partial harmony: 50.0%
+Percent words failed harmony: 25.0%

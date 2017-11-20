@@ -1,0 +1,8 @@
+Filename: assyrian.txt
+Percent stems with perfect harmony: 60.0%
+Percent stems with partial harmony: 40.0%
+Percent stems failed harmony: 0.0%
+-------------------------------
+Percent words with perfect harmony: 60.0%
+Percent words with partial harmony: 40.0%
+Percent words failed harmony: 0.0%

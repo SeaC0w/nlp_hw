@@ -1,0 +1,8 @@
+Filename: arabic.txt
+Percent stems with perfect harmony: 56.15550755939525%
+Percent stems with partial harmony: 41.252699784017274%
+Percent stems failed harmony: 2.591792656587473%
+-------------------------------
+Percent words with perfect harmony: 53.99568034557235%
+Percent words with partial harmony: 43.196544276457885%
+Percent words failed harmony: 2.8077753779697625%
