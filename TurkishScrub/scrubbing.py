@@ -4,7 +4,7 @@ import sys
 def scrub(fil, outName):
     f = open(fil, 'r')
     to_scrub = f.read()
-    to_scrub = re.sub('Dr.', '', to_scrub)
+    to_scrub = re.sub('Dr\.', '', to_scrub)
     to_scrub = re.sub('/Noun', '', to_scrub)
     to_scrub = re.sub('/Undef', '', to_scrub)
     to_scrub = re.sub('/Adj', '', to_scrub)
@@ -37,6 +37,14 @@ def scrub(fil, outName):
     to_scrub = re.sub(';', ' ', to_scrub)
     to_scrub = re.sub(':', ' ', to_scrub)
     to_scrub = re.sub('-', ' ', to_scrub)
+    to_scrub = re.sub('\|', ' ', to_scrub)
+    to_scrub = re.sub('\/', ' ', to_scrub)
+    to_scrub = re.sub('\.+', ' ', to_scrub)
+    to_scrub = re.sub('/Interj', ' ', to_scrub)
+    to_scrub = re.sub('\[', ' ', to_scrub)
+    to_scrub = re.sub('\]', ' ', to_scrub)
+    to_scrub = re.sub('\*', ' ', to_scrub)
+    to_scrub = re.sub('\s+', ' ', to_scrub)
     # lowercasing turkish messes the file up
     # to_scrub = to_scrub.lower()
     outfile = open(outName, 'w+')
